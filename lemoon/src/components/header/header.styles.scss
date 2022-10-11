@@ -1,12 +1,45 @@
-$color-lemon: #F2E205;
+$color-lemon: #f2e205;
+$color-black: #3a3a3a;
+$color-mainBackground: #FAFAFA;;
 
 .header {
-  height: 328px;
-  background-color: lightblue;
+  min-height: 710px;
+  background-color: $color-mainBackground;
+  position: relative;
+
+  h2 {
+    font-family: "Comfortaa", cursive;
+    margin: 0 0 0 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    color: $color-black;
+  }
+
+  h4 {
+    margin: 80px 0 0 0;
+    font-family: "Comfortaa";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: $color-black;
+    max-width: 655px;
+  }
 
   .header-info {
     background-color: $color-lemon;
     border-radius: 0 36px 36px 0;
+    padding: 45px 0 0 83px;
+    max-width: 1280px;
+    min-height: 535px;
   }
 
+  .image-lemon {
+    position: absolute;
+    top: 110px;
+    right: 218px;
+    height: 504px;
+  }
 }
