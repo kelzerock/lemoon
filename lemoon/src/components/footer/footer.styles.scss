@@ -3,4 +3,7 @@ $dark-color: #DEDEDE;
 .footer {
   height: 312px;
   background-color: $dark-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
