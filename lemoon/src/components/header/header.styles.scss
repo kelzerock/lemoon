@@ -1,0 +1,12 @@
+$color-lemon: #F2E205;
+
+.header {
+  height: 328px;
+  background-color: lightblue;
+
+  .header-info {
+    background-color: $color-lemon;
+    border-radius: 0 36px 36px 0;
+  }
+
+}
