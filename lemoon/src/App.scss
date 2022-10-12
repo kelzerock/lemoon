@@ -1,12 +1,19 @@
+$color-mainBackground: #fafafa;
+
 * {
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Comfortaa";
+  font-style: normal;
+}
 
 #root {
   height: 100%;
   max-width: 1920px;
   margin: 0 auto;
+  background-color: $color-mainBackground;
 }
 
 .main-wrapper {

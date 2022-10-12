@@ -1,9 +1,12 @@
+import Instruction from './instruction/instruction.conponent';
 import './main-info.styles.scss'
+import Reason from './reason/reason.component';
 
 const MainInfo = () => {
   return (
     <div className="main-info">
-      <h2>MainInfo</h2>
+      <Reason />
+      <Instruction />
     </div>
   );
 };
