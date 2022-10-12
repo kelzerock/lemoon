@@ -1,0 +1,100 @@
+.instruction-div {
+  padding: 140px 20px 0 90px;
+  min-height: 3780px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h4 {
+    margin: 0 0 30px 0;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+    max-width: 1100px;
+    text-align: center;
+  }
+  .instruction-sheme {
+    position: relative;
+    width: 100%;
+    flex: 1 1 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .instruction-path {
+      position: absolute;
+      left: 326px;
+      top: 289px;
+    }
+
+    .instruction-item {
+      display: flex;
+      flex-direction: row;
+      min-height: 500px;
+      justify-content: space-between;
+      
+      .instruction-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 500px;
+        position:relative;
+        border-radius: 10px;
+        z-index: 2;
+        background-color: #fafafa;
+
+        h5 {
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 150%;
+          text-align: center;
+          color: #000000;
+          text-align: start;
+        }
+        p {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 150%;
+          text-align: center;
+          color: #000000;
+          text-align: start;
+        }
+      }
+
+      &:nth-child(odd) {
+        flex-direction: row-reverse;
+
+        .instruction-text {
+          justify-content: flex-end;
+          h5 {
+            text-align: end;
+          }
+          p {
+            text-align: end;
+          }
+        }
+      }
+      &:last-child {
+        flex-direction: column;
+        min-height: 843px;
+        align-items: center;
+
+        .instruction-text {
+          justify-content: center;
+          h5 {
+            text-align: center;
+          }
+          p {
+            text-align: center;
+          }
+        }
+      }
+
+      .instruction-img {
+        height: 500px;
+      }
+    }
+  }
+}

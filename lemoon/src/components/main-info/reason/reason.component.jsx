@@ -33,8 +33,8 @@ const Reason = () => {
       <div className="reason-info">
         {reasonInfo.map((element, index) => {
           return (
-            <div className="reason-wrapper">
-              <div className="reason-item" key={index}>
+            <div className="reason-wrapper" key={index}>
+              <div className="reason-item">
                 <p>{element}</p>
               </div>
               <img

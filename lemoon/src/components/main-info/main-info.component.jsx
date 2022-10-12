@@ -1,3 +1,4 @@
+import Gift from './gift/gift.component';
 import Instruction from './instruction/instruction.conponent';
 import './main-info.styles.scss'
 import Reason from './reason/reason.component';
@@ -7,6 +8,7 @@ const MainInfo = () => {
     <div className="main-info">
       <Reason />
       <Instruction />
+      <Gift />
     </div>
   );
 };
