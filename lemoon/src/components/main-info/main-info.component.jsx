@@ -1,3 +1,4 @@
+import Form from './form/form.component';
 import Gift from './gift/gift.component';
 import Instruction from './instruction/instruction.conponent';
 import './main-info.styles.scss'
@@ -9,6 +10,7 @@ const MainInfo = () => {
       <Reason />
       <Instruction />
       <Gift />
+      <Form />
     </div>
   );
 };
