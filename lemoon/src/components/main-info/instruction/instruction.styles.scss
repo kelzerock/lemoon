@@ -7,11 +7,6 @@
 
   h4 {
     margin: 0 0 30px 0;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 150%;
-    text-align: center;
-    color: #000000;
     max-width: 1100px;
     text-align: center;
   }
@@ -34,31 +29,25 @@
       flex-direction: row;
       min-height: 500px;
       justify-content: space-between;
-      
+
       .instruction-text {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         max-width: 500px;
-        position:relative;
+        position: relative;
         border-radius: 10px;
         z-index: 2;
         background-color: #fafafa;
 
         h5 {
-          font-weight: 700;
-          font-size: 36px;
-          line-height: 150%;
-          text-align: center;
           color: #000000;
+          text-align: center;
           text-align: start;
+          line-height: 150%;
         }
         p {
-          font-weight: 400;
-          font-size: 24px;
-          line-height: 150%;
           text-align: center;
-          color: #000000;
           text-align: start;
         }
       }
@@ -94,6 +83,277 @@
 
       .instruction-img {
         height: 500px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1700px) {
+  .instruction-path {
+    display: none;
+  }
+}
+
+@media (max-width: 1550px) {
+  .instruction-div {
+    padding: 140px 20px 0 90px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h4 {
+      margin: 0 0 30px 0;
+      max-width: 1100px;
+      text-align: center;
+    }
+    .instruction-sheme {
+      position: relative;
+      width: 100%;
+      row-gap: 20px;
+      flex: 1 1 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .instruction-item {
+        display: flex;
+        flex-direction: row;
+        min-height: 500px;
+        justify-content: space-between;
+
+        .instruction-text {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          max-width: 500px;
+          position: relative;
+          border-radius: 10px;
+          z-index: 2;
+          background-color: #fafafa;
+
+          h5 {
+            color: #000000;
+            text-align: start;
+            line-height: 150%;
+          }
+          p {
+            text-align: start;
+          }
+        }
+
+        &:nth-child(odd) {
+          flex-direction: row-reverse;
+
+          .instruction-text {
+            justify-content: flex-start;
+            h5 {
+              text-align: end;
+            }
+            p {
+              text-align: end;
+            }
+          }
+        }
+        &:last-child {
+          flex-direction: column;
+          min-height: 843px;
+          align-items: center;
+
+          .instruction-text {
+            justify-content: center;
+            h5 {
+              text-align: center;
+            }
+            p {
+              text-align: center;
+            }
+          }
+        }
+
+        .instruction-img {
+          height: 350px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 999px) {
+  .instruction-div {
+    padding: 20px 10px;
+    min-height: auto;
+
+    h4 {
+      margin: 30px 0 30px 0;
+      max-width: 1100px;
+      text-align: center;
+    }
+    .instruction-sheme {
+      position: relative;
+      width: 100%;
+      flex: 1 1 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      row-gap: 20px;
+
+      .instruction-path {
+        position: absolute;
+        left: 326px;
+        top: 289px;
+      }
+
+      .instruction-item {
+        display: flex;
+        flex-direction: column-reverse;
+        min-height: auto;
+        justify-content: space-between;
+
+        .instruction-text {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          max-width: none;
+          position: relative;
+          border-radius: 10px;
+          z-index: 2;
+          background-color: #fafafa;
+
+          h5 {
+            color: #000000;
+            text-align: center;
+            line-height: 150%;
+            margin: 10px 0;
+          }
+          p {
+            text-align: center;
+          }
+        }
+
+        &:nth-child(odd) {
+          flex-direction: column-reverse;
+          justify-content: center;
+
+          .instruction-text {
+            justify-content: center;
+            h5 {
+              text-align: center;
+            }
+            p {
+              text-align: center;
+            }
+          }
+        }
+        &:last-child {
+          flex-direction: column-reverse;
+          min-height: auto;
+          align-items: center;
+
+          .instruction-text {
+            justify-content: center;
+            h5 {
+              text-align: center;
+            }
+            p {
+              text-align: center;
+            }
+          }
+        }
+
+        .instruction-img {
+          height: 200px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  .instruction-div {
+    padding: 20px 10px;
+    min-height: auto;
+
+    h4 {
+      margin: 30px 0 30px 0;
+      max-width: 1100px;
+      text-align: center;
+    }
+    .instruction-sheme {
+      position: relative;
+      width: 100%;
+      flex: 1 1 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      row-gap: 20px;
+
+      .instruction-path {
+        position: absolute;
+        left: 326px;
+        top: 289px;
+      }
+
+      .instruction-item {
+        display: flex;
+        flex-direction: column-reverse;
+        min-height: auto;
+        justify-content: space-between;
+
+        .instruction-text {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          max-width: 500px;
+          position: relative;
+          border-radius: 10px;
+          z-index: 2;
+          background-color: #fafafa;
+
+          h5 {
+            color: #000000;
+            text-align: center;
+            line-height: 150%;
+            margin: 10px 0;
+          }
+          p {
+            text-align: center;
+          }
+        }
+
+        &:nth-child(odd) {
+          flex-direction: column-reverse;
+          justify-content: center;
+
+          .instruction-text {
+            justify-content: center;
+            h5 {
+              text-align: center;
+            }
+            p {
+              text-align: center;
+            }
+          }
+        }
+        &:last-child {
+          flex-direction: column-reverse;
+          min-height: auto;
+          align-items: center;
+
+          .instruction-text {
+            justify-content: center;
+            h5 {
+              text-align: center;
+            }
+            p {
+              text-align: center;
+            }
+          }
+        }
+
+        .instruction-img {
+          height: 120px;
+        }
       }
     }
   }

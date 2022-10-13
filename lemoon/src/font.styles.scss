@@ -1,0 +1,115 @@
+$color-black: #3a3a3a;
+$color-fullBlack: #000000;
+
+h1 {
+  color: $color-black;
+}
+h2 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 107px;
+  color: $color-black;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  color: $color-black;
+}
+h4 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 150%;
+  color: $color-fullBlack;
+}
+h5 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: $color-black;
+}
+h6 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 150%;
+  color: $color-fullBlack;
+}
+p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: $color-fullBlack;
+}
+
+@media (max-width: 999px) {
+
+  h2 {
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 44px;
+  }
+  
+  h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 40px;
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+  }
+  h5 {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 120%;
+  }
+  h6 {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 150%;
+  }
+  p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 150%;
+  }
+
+}
+
+@media (max-width: 639px) {
+
+  h2 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 44px;
+  }
+  
+  h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 150%;
+  }
+  h5 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+  }
+  h6 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+}

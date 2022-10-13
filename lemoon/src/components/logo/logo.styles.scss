@@ -6,3 +6,15 @@
     margin: 18px 0 20px 78px;
   }
 }
+
+
+@media (max-width: 639px) {
+  .logo {
+    width: 300px;
+  
+    &.small {
+      width: 250px;
+      margin: 18px 0 5px 28px;
+    }
+  }
+}
