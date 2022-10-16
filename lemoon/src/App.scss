@@ -7,6 +7,10 @@ $color-mainBackground: #fafafa;
 body {
   font-family: "Comfortaa";
   font-style: normal;
+
+  &.lock {
+    overflow: hidden;
+  }
 }
 
 #root {
