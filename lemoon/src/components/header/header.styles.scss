@@ -13,6 +13,7 @@ $color-lemon: #f2e205;
   h5 {
     margin: 80px 0 0 0;
     max-width: 655px;
+    text-align: justify;
   }
 
   .header-info {
@@ -25,7 +26,7 @@ $color-lemon: #f2e205;
   }
 
   .image-lemon {
-    transition: all 0.5s ease-in-out;
+    transition: all 0.1s ease-in-out;
     position: absolute;
     top: -70px;
     /* left: 60%; */
@@ -46,6 +47,10 @@ $color-lemon: #f2e205;
       width: 70%;
       padding: 45px 20px 20px 83px;
 
+      h3 {
+        width: 90%;
+      }
+
       h5 {
         width: 60%;
       }
@@ -54,10 +59,6 @@ $color-lemon: #f2e205;
     .image-lemon {
       height: 450px;
       top: 8px;
-      // display: none;
-      // height: 400px;
-      // top: 200px;
-      // right: 200px;
     }
   }
 }
@@ -66,29 +67,28 @@ $color-lemon: #f2e205;
   .header {
     min-height: auto;
 
-    h3 {
-      margin: 0 0 0 0;
-    }
-
-    h5 {
-      width: auto;
-      margin: 80px 0 0 0;
-      max-width: none;
-    }
-
     .header-info {
-      width: 95%;
+      width: 60%;
       padding: 30px;
       min-height: 335px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      background-image: url('../../assets/img/lemon.png');
-      background-repeat: no-repeat;
-      background-position-x: 350px;
+      justify-content: flex-start
+
+      h3 {
+        margin: 0 0 0 0;
+        width: 340px;
+      }
+
+      h5 {
+        width: 75%;
+        margin: 80px 0 0 0;
+      }
 
       .image-lemon {
-        display: none;
+        height: 300px;
+        top: 8px;
+        right: -230px;
       }
     }
   }
@@ -98,23 +98,31 @@ $color-lemon: #f2e205;
   .header {
     min-height: auto;
 
-    h3 {
-      margin: 0 0 0 0;
-    }
-
-    h5 {
-      margin: 80px 0 0 0;
-      max-width: 300px;
-    }
-
     .header-info {
-      width: 95%;
+      // width: 95%;
       padding: 20px;
       min-height: 335px;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      background-image: none;
+      justify-content: flex-start;
+
+      h3 {
+        margin: 0 0 0 0;
+        width: 260px;
+        font-size: 27px;
+      }
+
+      h5 {
+        margin: 30px 0 0 0;
+        max-width: 300px;
+        font-size: 14px;
+      }
+
+      .image-lemon {
+        height: 170px;
+        top: 50px;
+        right: -122px;
+      }
     }
   }
 }
